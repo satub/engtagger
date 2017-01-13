@@ -4,7 +4,7 @@
 $LOAD_PATH << File.join(File.dirname(__FILE__), 'engtagger')
 require 'rubygems'
 require 'kconv'
-#require 'porter'
+require 'porter'
 
 # use hpricot for extracting English text from docs with XML like tags
 begin
